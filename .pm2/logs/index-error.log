@@ -1,0 +1,52 @@
+- Connecting...
+- Connected
+Error: ENOENT: no such file or directory, open '4047.webp'
+    at Object.openSync (fs.js:476:3)
+    at Object.readFileSync (fs.js:377:35)
+    at FfmpegCommand.<anonymous> (/data/data/com.termux/files/home/Bot-whatsapp/index.js:1177:37)
+    at FfmpegCommand.emit (events.js:315:20)
+    at emitEnd (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/fluent-ffmpeg/lib/processor.js:426:16)
+    at endCB (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/fluent-ffmpeg/lib/processor.js:587:15)
+    at handleExit (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/fluent-ffmpeg/lib/processor.js:170:11)
+    at Socket.<anonymous> (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/fluent-ffmpeg/lib/processor.js:209:9)
+    at Socket.emit (events.js:327:22)
+    at Pipe.<anonymous> (net.js:673:12) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '4047.webp'
+}
+- Connecting...
+- Connected
+BaileysError: replaced
+    at WAConnection.onErr (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/@adiwajshing/baileys/lib/WAConnection/0.Base.js:194:56)
+    at WAConnection.emit (events.js:315:20)
+    at WAConnection.emit (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/@adiwajshing/baileys/lib/WAConnection/4.Events.js:621:41)
+    at WAConnection.endConnection (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/@adiwajshing/baileys/lib/WAConnection/0.Base.js:420:14)
+    at WAConnection.closeInternal (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/@adiwajshing/baileys/lib/WAConnection/0.Base.js:404:14)
+    at WAConnection.unexpectedDisconnect (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/@adiwajshing/baileys/lib/WAConnection/0.Base.js:111:18)
+    at WAConnection.<anonymous> (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/@adiwajshing/baileys/lib/WAConnection/4.Events.js:80:82)
+    at WAConnection.emit (events.js:315:20)
+    at WAConnection.emit (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/@adiwajshing/baileys/lib/WAConnection/4.Events.js:621:41)
+    at /data/data/com.termux/files/home/Bot-whatsapp/node_modules/@adiwajshing/baileys/lib/WAConnection/3.Connect.js:176:37
+    at Array.forEach (<anonymous>)
+    at WAConnection.onMessageRecieved (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/@adiwajshing/baileys/lib/WAConnection/3.Connect.js:174:29)
+    at WebSocket.<anonymous> (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/@adiwajshing/baileys/lib/WAConnection/3.Connect.js:101:50)
+    at WebSocket.emit (events.js:315:20)
+    at Receiver.receiverOnMessage (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/ws/lib/websocket.js:825:20)
+    at Receiver.emit (events.js:315:20)
+    at Receiver.dataMessage (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/ws/lib/receiver.js:437:14)
+    at Receiver.getData (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/ws/lib/receiver.js:367:17)
+    at Receiver.startLoop (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/ws/lib/receiver.js:143:22)
+    at Receiver._write (/data/data/com.termux/files/home/Bot-whatsapp/node_modules/ws/lib/receiver.js:78:10)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at Receiver.Writable.write (internal/streams/writable.js:303:10) {
+  status: undefined,
+  context: { status: undefined }
+}
+- Connecting...
+- Connected
+- Connecting...
+- Connected
+- Connecting...
+- Connected

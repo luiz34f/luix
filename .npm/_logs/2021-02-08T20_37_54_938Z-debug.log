@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/data/data/com.termux/files/usr/bin/node',
+1 verbose cli   '/data/data/com.termux/files/usr/bin/npm',
+1 verbose cli   'audit',
+1 verbose cli   'fix'
+1 verbose cli ]
+2 info using npm@6.14.10
+3 info using node@v14.15.4
+4 verbose npm-session 47ea1f8d73703d1f
+5 verbose stack Error: Neither npm-shrinkwrap.json nor package-lock.json found: Cannot audit a project without a lockfile
+5 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/lib/audit.js:169:19
+5 verbose stack     at tryCatcher (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+5 verbose stack     at Promise._settlePromiseFromHandler (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:514:35)
+5 verbose stack     at Promise._settlePromise (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:574:18)
+5 verbose stack     at Promise._settlePromise0 (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:619:10)
+5 verbose stack     at Promise._settlePromises (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:699:18)
+5 verbose stack     at Promise._fulfill (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:643:18)
+5 verbose stack     at PromiseArray._resolve (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/bluebird/js/release/promise_array.js:126:19)
+5 verbose stack     at PromiseArray._promiseFulfilled (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/bluebird/js/release/promise_array.js:144:14)
+5 verbose stack     at PromiseArray._iterate (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/bluebird/js/release/promise_array.js:114:31)
+5 verbose stack     at PromiseArray.init [as _init] (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/bluebird/js/release/promise_array.js:78:10)
+5 verbose stack     at Promise._settlePromise (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:571:21)
+5 verbose stack     at Promise._settlePromise0 (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:619:10)
+5 verbose stack     at Promise._settlePromises (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:699:18)
+5 verbose stack     at Promise._fulfill (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:643:18)
+5 verbose stack     at PromiseArray._resolve (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/bluebird/js/release/promise_array.js:126:19)
+6 verbose cwd /data/data/com.termux/files/home/Bot-whatsapp
+7 verbose Linux 4.4.241-Eureka_R5.0_A305_P/Q/R
+8 verbose argv "/data/data/com.termux/files/usr/bin/node" "/data/data/com.termux/files/usr/bin/npm" "audit" "fix"
+9 verbose node v14.15.4
+10 verbose npm  v6.14.10
+11 error code EAUDITNOLOCK
+12 error audit Neither npm-shrinkwrap.json nor package-lock.json found: Cannot audit a project without a lockfile
+13 error audit Try creating one first with: npm i --package-lock-only
+14 verbose exit [ 1, true ]

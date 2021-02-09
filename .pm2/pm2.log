@@ -1,0 +1,61 @@
+2021-02-08T19:38:17: PM2 log: ===============================================================================
+2021-02-08T19:38:17: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2021-02-08T19:38:17: PM2 log: Time                 : Mon Feb 08 2021 19:38:17 GMT-0300 (GMT-03:00)
+2021-02-08T19:38:17: PM2 log: PM2 version          : 4.5.4
+2021-02-08T19:38:17: PM2 log: Node.js version      : 14.15.4
+2021-02-08T19:38:17: PM2 log: Current arch         : arm64
+2021-02-08T19:38:17: PM2 log: PM2 home             : /data/data/com.termux/files/home/.pm2
+2021-02-08T19:38:17: PM2 log: PM2 PID file         : /data/data/com.termux/files/home/.pm2/pm2.pid
+2021-02-08T19:38:17: PM2 log: RPC socket file      : /data/data/com.termux/files/home/.pm2/rpc.sock
+2021-02-08T19:38:17: PM2 log: BUS socket file      : /data/data/com.termux/files/home/.pm2/pub.sock
+2021-02-08T19:38:17: PM2 log: Application log path : /data/data/com.termux/files/home/.pm2/logs
+2021-02-08T19:38:17: PM2 log: Worker Interval      : 30000
+2021-02-08T19:38:17: PM2 log: Process dump file    : /data/data/com.termux/files/home/.pm2/dump.pm2
+2021-02-08T19:38:17: PM2 log: Concurrent actions   : 2
+2021-02-08T19:38:17: PM2 log: SIGTERM timeout      : 1600
+2021-02-08T19:38:17: PM2 log: ===============================================================================
+2021-02-08T19:38:17: PM2 log: App [index:0] starting in -fork mode-
+2021-02-08T19:38:18: PM2 log: App [index:0] online
+2021-02-08T19:38:18: PM2 error: Error while getting CLK_TCK Error: Command failed: getconf CLK_TCK
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at ChildProcess.exithandler (child_process.js:308:12)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:529:15)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Socket.<anonymous> (internal/child_process.js:439:11)
+    at Socket.emit (events.js:315:20)
+    at Socket.EventEmitter.emit (domain.js:529:15)
+    at Pipe.<anonymous> (net.js:673:12)
+    at Pipe.callbackTrampoline (internal/async_hooks.js:131:14) {
+  killed: false,
+  code: 127,
+  signal: null,
+  cmd: 'getconf CLK_TCK'
+}
+2021-02-08T19:38:18: PM2 error: Error while getting PAGESIZE Error: Command failed: getconf PAGESIZE
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at ChildProcess.exithandler (child_process.js:308:12)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:529:15)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Socket.<anonymous> (internal/child_process.js:439:11)
+    at Socket.emit (events.js:315:20)
+    at Socket.EventEmitter.emit (domain.js:529:15)
+    at Pipe.<anonymous> (net.js:673:12)
+    at Pipe.callbackTrampoline (internal/async_hooks.js:131:14) {
+  killed: false,
+  code: 127,
+  signal: null,
+  cmd: 'getconf PAGESIZE'
+}
+2021-02-08T19:41:28: PM2 log: App [index:0] exited with code [1] via signal [SIGINT]
+2021-02-08T19:41:28: PM2 log: App [index:0] starting in -fork mode-
+2021-02-08T19:41:28: PM2 log: App [index:0] online
+2021-02-08T19:44:22: PM2 log: App [index:0] exited with code [0] via signal [SIGINT]
+2021-02-08T19:44:22: PM2 log: App [index:0] starting in -fork mode-
+2021-02-08T19:44:22: PM2 log: App [index:0] online
+2021-02-08T19:45:14: PM2 log: App [index:0] exited with code [0] via signal [SIGINT]
+2021-02-08T19:45:14: PM2 log: App [index:0] starting in -fork mode-
+2021-02-08T19:45:14: PM2 log: App [index:0] online
